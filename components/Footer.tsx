@@ -45,12 +45,12 @@ export default function Footer() {
                 <span className="text-[#F2C94C]" style={{ color: COLORS.amarilloLuz }}>9:00 - 19:00 hrs</span>
               </div>
               <div className="flex justify-between">
-                <span>Sábados</span>
-                <span className="text-[#F2C94C]" style={{ color: COLORS.amarilloLuz }}>10:00 - 14:00 hrs</span>
+                <span>Fines de Semana y Feriados</span>
+                <span className="text-[#F2C94C]" style={{ color: COLORS.amarilloLuz }}>Fuera de Servicio</span>
               </div>
               <div className="flex justify-between">
                 <span>Urgencias</span>
-                <span className="text-[#E8505B]" style={{ color: COLORS.rojoCyber }}>24/7 vía WhatsApp</span>
+                <span className="text-[#E8505B]" style={{ color: COLORS.rojoCyber }}>24/7 vía WhatsApp, con costo especial</span>
               </div>
             </div>
           </div>

@@ -19,8 +19,8 @@ export const SERVICES: Service[] = [
     description: "Como un chequeo médico general para tu empresa",
     price: "32 UF",
     features: [
-      "Evaluación completa de 360° en 2 semanas",
-      "Revisión de políticas y controles",
+      "Evaluación fundamental en 2 semanas",
+      "Revisión basada en criterios de ISO 27.001",
       "Informe ejecutivo con diagnóstico claro",
       "Plan de tratamiento priorizado"
     ],
@@ -35,8 +35,8 @@ export const SERVICES: Service[] = [
     features: [
       "Prueba de penetración en 3 días hábiles",
       "Evaluación de vulnerabilidades web críticas",
-      "Reporte con evidencias y soluciones paso a paso",
-      "30 minutos de asesoría post-intervención"
+      "Reporte con evidencias y consejos generales",
+      "Reunión de explicación post-intervención"
     ],
     highlight: true,
     icon: "Search",
@@ -50,9 +50,9 @@ export const SERVICES: Service[] = [
     pricePeriod: "/mes",
     features: [
       "Actualizaciones de seguridad automáticas",
-      "Monitoreo 24/7 y respuesta inmediata",
-      "Backups diarios y recuperación garantizada",
-      "Soporte técnico prioritario incluido"
+      "Monitoreo y aviso de estado de salud",
+      "Backups periódicos y recuperación garantizada",
+      "Incluye cambios menores"
     ],
     icon: "Globe",
     color: "yellow"
@@ -93,17 +93,17 @@ export const SYMPTOMS: Symptom[] = [
 export const TEAM_MEMBERS: TeamMember[] = [
   {
     id: 1,
-    name: "Dr. Alex Ríos",
+    name: "Dr. David López",
     role: "Especialista en Diagnóstico",
-    description: "15 años encontrando lo que otros pasan por alto. Ex-auditor de Big4.",
+    description: "Profesor de Diplomado de GRC de USACH. Experto en sintomatología de Ciberseguridad.",
     icon: "Stethoscope",
     color: "blue"
   },
   {
     id: 2,
-    name: "Dra. María Torres",
+    name: "Dr. Samuel Paschuan",
     role: "Cirujana de Sistemas",
-    description: "Ética hacker certificada. Sabe pensar como el enemigo para protegerte mejor.",
+    description: "Hacker ético certificado. Sabe pensar como el enemigo para protegerte mejor.",
     icon: "Search",
     color: "red"
   }

@@ -21,7 +21,7 @@ const features = [
   },
   {
     title: "Certificados que Importan",
-    description: "CEH, OSCP, CISSP. Pero lo que más nos enorgullece es tu tranquilidad.",
+    description: "CCISO, ISCC-C2, EJPT. Pero lo que más nos enorgullece es tu tranquilidad.",
     icon: Award,
     borderColor: "border-[#2C3E50]/20",
     iconColor: COLORS.azulOscuro
