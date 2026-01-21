@@ -27,7 +27,7 @@ export default function CTASection() {
           <Clock className="w-8 h-8 text-white" />
         </div>
         <h2 className="text-4xl md:text-5xl font-bold mb-8 text-white">
-          ¿Duele pensar en ciberseguridad?
+          ¿Te enferma pensar en ciberseguridad?
           <br />
           <span className="text-white">La primera consulta no duele nada</span>
         </h2>

@@ -7,7 +7,7 @@ import { TeamMember } from '@/types';
 const features = [
   {
     title: "Diagnóstico Rápido",
-    description: "En 48 horas sabrás si tu empresa está en riesgo. Sin papeleo burocrático.",
+    description: "En solo días sabrás si tu empresa está en riesgo. Sin papeleo burocrático.",
     icon: Zap,
     borderColor: "border-[#2D9CDB]/20",
     iconColor: COLORS.azulDoctor

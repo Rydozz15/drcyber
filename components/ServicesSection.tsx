@@ -45,10 +45,9 @@ export default function ServicesSection() {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           {SERVICES.map((service: Service) => {
             const Icon = getIconComponent(service.icon);
-            
             if (service.highlight) {
               return (
-                <div key={service.id} className="bg-gradient-to-br from-[#2D9CDB] via-[#2D9CDB]/90 to-[#2D9CDB] rounded-3xl p-8 transform scale-105 shadow-2xl shadow-[#2D9CDB]/30 relative overflow-hidden border-2 border-white">
+                <div key={service.id} className="bg-gradient-to-br from-[#E8505B] via-[#E8505B]/90 to-[#E8505B] rounded-3xl p-8 transform scale-105 shadow-2xl shadow-[#E8505B]/30 relative overflow-hidden border-2 border-white">
                   <div className="absolute -top-20 -left-20 w-40 h-40 bg-white/10 rounded-full blur-3xl"></div>
                   <div className="relative z-10">
                     <div className="flex items-center justify-between mb-6">
@@ -57,11 +56,10 @@ export default function ServicesSection() {
                           <Icon className="w-8 h-8 text-white" />
                         </div>
                         <div>
-                          <div className="text-sm text-white/90 font-semibold">Nivel Fundamental</div>
                           <h3 className="text-2xl font-bold text-white">{service.title}</h3>
                         </div>
                       </div>
-                      <div className="bg-white text-[#2D9CDB] px-3 py-2 rounded-full text-sm font-bold shadow-sm">
+                      <div className="bg-white text-[#E8505B] px-3 py-2 rounded-full text-sm font-bold shadow-sm">
                         MÁS VENDIDO
                       </div>
                     </div>
@@ -84,8 +82,8 @@ export default function ServicesSection() {
                     
                     <button 
                       onClick={() => openWhatsApp(service.title)}
-                      className="w-full bg-white text-[#2D9CDB] py-4 rounded-full hover:bg-gray-50 transition-all font-semibold shadow-lg hover:scale-105"
-                      style={{ color: COLORS.azulDoctor }}
+                      className="w-full bg-white text-[#E8505B] py-4 rounded-full hover:bg-gray-50 transition-all font-semibold shadow-lg hover:scale-105"
+                      style={{ color: COLORS.rojoCyber }}
                     >
                       Comenzar Ahora
                     </button>
@@ -107,9 +105,6 @@ export default function ServicesSection() {
                       <Icon className="w-8 h-8" style={{ color: textColor }} />
                     </div>
                     <div>
-                      <div className="text-sm font-semibold" style={{ color: textColor }}>
-                        {service.color === 'yellow' ? 'Suscripción Mensual' : 'Nivel Básico'}
-                      </div>
                       <h3 className="text-2xl font-bold text-[#2C3E50]">{service.title}</h3>
                     </div>
                   </div>
@@ -132,8 +127,8 @@ export default function ServicesSection() {
                   
                   <button 
                     onClick={() => openWhatsApp(service.title)}
-                    className="w-full bg-gradient-to-r from-[#2D9CDB] to-[#2D9CDB]/90 py-4 rounded-full hover:from-[#2D9CDB]/90 hover:to-[#2D9CDB] transition-all font-semibold text-white shadow-lg hover:shadow-[#2D9CDB]/30 group-hover:scale-105"
-                    style={{ backgroundColor: COLORS.azulDoctor }}
+                    className={`w-full bg-gradient-to-r from-${textColor} to-${textColor}/90 py-4 rounded-full hover:from-${textColor}/90 hover:to-${textColor} transition-all font-semibold text-white shadow-lg hover:shadow-${textColor}/30 group-hover:scale-105`}
+                    style={{ backgroundColor: textColor }}
                   >
                     {service.color === 'yellow' ? 'Proteger mi Sitio' : 'Solicitar Diagnóstico'}
                   </button>

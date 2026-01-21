@@ -40,7 +40,7 @@ export const SERVICES: Service[] = [
     ],
     highlight: true,
     icon: "Search",
-    color: "blue"
+    color: "red"
   },
   {
     id: 3,
@@ -93,18 +93,18 @@ export const SYMPTOMS: Symptom[] = [
 export const TEAM_MEMBERS: TeamMember[] = [
   {
     id: 1,
-    name: "Dr. David López",
-    role: "Especialista en Diagnóstico",
-    description: "Profesor de Diplomado de GRC de USACH. Experto en sintomatología de Ciberseguridad.",
-    icon: "Stethoscope",
-    color: "blue"
-  },
-  {
-    id: 2,
     name: "Dr. Samuel Paschuan",
     role: "Cirujano de Sistemas",
     description: "Hacker ético certificado. Sabe pensar como el enemigo para protegerte mejor.",
     icon: "Search",
     color: "red"
-  }
+  },
+  {
+    id: 2,
+    name: "Dr. Juan Fuentes",
+    role: "Especialista en Diagnóstico",
+    description: "Encargado Comercial. Sabe traducir síntomas en diagnósticos para tu negocio.",
+    icon: "Stethoscope",
+    color: "blue"
+  },
 ];
