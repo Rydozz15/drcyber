@@ -147,7 +147,7 @@ export default function ServicesSection() {
           <div className="grid md:grid-cols-2 gap-8">
             <div className="text-[#2D9CDB]">
                 <h4 className="text-lg font-bold mb-4">
-                  ¿Qué SI incluimos?
+                  ¿Qué SÍ incluimos?
                 </h4>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
