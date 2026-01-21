@@ -30,7 +30,7 @@ export default function Navigation({ scrollToSection }: NavigationProps) {
           <div className='flex justify-center items-center'>
             <div className="relative w-16 h-16 mr-1"> {/* Ajusta el tamaño según tu logo */}
               <Image
-                src="/logo/logo.webp"
+                src="/logo/drciber.webp"
                 alt="Doctor Cyber"
                 width={64}
                 height={64}
@@ -39,10 +39,10 @@ export default function Navigation({ scrollToSection }: NavigationProps) {
               />
             </div>
             <div>
-              <span className="text-2xl font-bold bg-gradient-to-r from-[#2D9CDB] to-[#2C3E50] bg-clip-text text-transparent">
+              <span className="text-4xl font-bold bg-gradient-to-r from-[#2D9CDB] to-[#2C3E50] bg-clip-text text-transparent">
                 DOCTOR CYBER
               </span>
-              <div className="text-xs text-orange-400 font-medium">Salud Digital para Empresas</div>
+              <div className="text-xs text-orange-400 font-medium">Ciberseguridad Facil</div>
             </div>
           </div>
             

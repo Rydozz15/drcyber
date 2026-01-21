@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'azul-doctor': '#2D9CDB',
+        'azul-doctor': '#2d9cdb',
         'rojo-cyber': '#E8505B',
         'amarillo-luz': '#F2C94C',
         'azul-oscuro': '#2C3E50',

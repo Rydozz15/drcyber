@@ -150,27 +150,38 @@ export default function ServicesSection() {
             Alcances y Compromisos Claros
           </h3>
           <div className="grid md:grid-cols-2 gap-8">
-            <div>
-              <h4 className="text-lg font-bold mb-4 text-green-600">¿Qué SÍ incluimos?</h4>
-              <ul className="space-y-3">
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-green-600 mt-1" />
-                  <span className="text-[#2C3E50]">Reportes claros en español, sin tecnicismos</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-green-600 mt-1" />
-                  <span className="text-[#2C3E50]">Reuniones de explicación para no expertos</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-green-600 mt-1" />
-                  <span className="text-[#2C3E50]">Garantía de confidencialidad total</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-green-600 mt-1" />
-                  <span className="text-[#2C3E50]">Precios fijos sin sorpresas</span>
-                </li>
-              </ul>
-            </div>
+            <div className="text-[#2D9CDB]">
+                <h4 className="text-lg font-bold mb-4">
+                  ¿Qué SI incluimos?
+                </h4>
+                <ul className="space-y-3">
+                  <li className="flex items-start gap-3">
+                    <CheckCircle className="w-5 h-5 mt-1 text-current" />
+                    <span className="text-[#2C3E50]">
+                      Reportes claros en español, sin tecnicismos
+                    </span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <CheckCircle className="w-5 h-5 mt-1 text-current" />
+                    <span className="text-[#2C3E50]">
+                      Reuniones de explicación para no expertos
+                    </span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <CheckCircle className="w-5 h-5 mt-1 text-current" />
+                    <span className="text-[#2C3E50]">
+                      Garantía de confidencialidad total
+                    </span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <CheckCircle className="w-5 h-5 mt-1 text-current" />
+                    <span className="text-[#2C3E50]">
+                      Precios fijos sin sorpresas
+                    </span>
+                  </li>
+                </ul>
+              </div>
+
             <div>
               <h4 className="text-lg font-bold mb-4 text-[#E8505B]" style={{ color: COLORS.rojoCyber }}>¿Qué NO hacemos?</h4>
               <ul className="space-y-3">

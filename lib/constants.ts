@@ -9,7 +9,7 @@ export const COLORS = {
   grisPantalla: '#E0E0E0',
 } as const;
 
-export const WHATSAPP_NUMBER = "+569XXXXXXXX";
+export const WHATSAPP_NUMBER = "+56983558920";
 export const DEFAULT_MESSAGE = "Hola Doctor Cyber, me gustaría consultar sobre sus servicios de ciberseguridad para mi empresa.";
 
 export const SERVICES: Service[] = [
@@ -102,7 +102,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
   {
     id: 2,
     name: "Dr. Samuel Paschuan",
-    role: "Cirujana de Sistemas",
+    role: "Cirujano de Sistemas",
     description: "Hacker ético certificado. Sabe pensar como el enemigo para protegerte mejor.",
     icon: "Search",
     color: "red"
