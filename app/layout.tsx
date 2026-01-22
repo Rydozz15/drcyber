@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import { Montserrat } from 'next/font/google'
 import './globals.css'
+import GoogleAnalytics from "components/GoogleAnalytics";
+import MetaPixel from 'components/MetaPixel';
 
 const montserrat = Montserrat({
   subsets: ['latin'],
@@ -23,6 +25,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
+      <head>
+        {/* Google Analytics */}
+        <GoogleAnalytics />
+            <MetaPixel />
+      </head>
       <body className={montserrat.variable}>
         {children}
       </body>
